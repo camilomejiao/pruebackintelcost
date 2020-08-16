@@ -1,5 +1,6 @@
 <?php
 
+
 $misbienes = $obj_conexion->query("SELECT b.Id, b.Direccion, b.Ciudad, b.Telefono, b.Codigo_Postal, b.Tipo, b.Precio 
                                 FROM bienes AS b
                                 INNER JOIN misbienes AS mb ON(b.Id=mb.id_bienes)
