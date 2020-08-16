@@ -1,5 +1,6 @@
 <?php
 
+
 $ciudad = (!empty ($_POST['ciudad']) ) ? $_POST['ciudad'] : NULL; 
 $tipo = (!empty ($_POST['tipo']) ) ? $_POST['tipo'] : NULL; 
 
