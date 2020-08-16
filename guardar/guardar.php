@@ -21,6 +21,4 @@ if($Accion == 'eliminar'){
     } else {
         echo 'true';
     }
-}
-
- 
+} 
