@@ -1,6 +1,10 @@
 <?php
 
+/*
+Archivo creado para filtrar los bienes
+*/
 
+//Se reciben variables de buequeda
 $ciudad = (!empty ($_POST['ciudad']) ) ? $_POST['ciudad'] : NULL; 
 $tipo = (!empty ($_POST['tipo']) ) ? $_POST['tipo'] : NULL; 
 
