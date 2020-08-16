@@ -66,7 +66,9 @@ include ('conex/conex.php');
             <input type="text" id="rangoPrecio" name="precio" value="" />
           </div>
           <div class="botonField">
-            <input type="submit" class="btn white" value="Buscar" id="submitButton">
+            <input type="submit" class="btn white" value="Filtrar" id="submitButton">
+                </br></br>
+            <input type="submit" class="btn white" value="Mostrar Todos" id="submitButton">
           </div>
         </div>
       </form>
